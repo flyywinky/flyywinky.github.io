@@ -39,7 +39,7 @@ function showLocale() {
     var diffhh = Math.floor((diff - (diffyy * 365 + diffdd) * days) / hours);
     var diffmm = Math.floor((diff - (diffyy * 365 + diffdd) * days - diffhh * hours) / minutes);
     var diffss = Math.floor((diff - (diffyy * 365 + diffdd) * days - diffhh * hours - diffmm * minutes) / seconds);
-    str1 =  colorhead + "NOW " + yy + "/" + MM + "/" + dd + " " + hh + ":" + mm + ":" + ss + "  " + ww + colorfoot;
+    str1 =  "NOW " + colorhead  + yy + "/" + MM + "/" + dd + " " + hh + ":" + mm + ":" + ss + "  " + ww + colorfoot;
     str2 =
         "<div class=\"years\"> \
             <div class=\"numbers\">" + diffyy + "</div>years</div> \
