@@ -31,7 +31,7 @@ function showLocale() {
     if (ww == 5) ww = "星期五";
     if (ww == 6) ww = "星期六";
     colorfoot = "</font>"
-    var time0 = Date.UTC(2017, 07, 12, 12, 00, 00);
+    var time0 = Date.UTC(2016, 12, 7, 17, 20, 00);
     var currenttime = Date.UTC(yy, MM, dd, hh, mm, ss, );
     var diff = currenttime - time0;
     var diffyy = Math.floor(diff / years); /*Math.floor函数是返回表示小于或等于指定数字的最大整数的数字*/
